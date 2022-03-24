@@ -146,17 +146,31 @@ body {
   }
 }
 
-.section-3 > div {
-  margin-bottom: 4rem;
+.section-3 {
 
-  .feature {
+  & > div {
     margin-bottom: 4rem;
+  
+    .feature {
+      margin-bottom: 4rem;
+    }
+  
+    .__partners-container {
+      display: block;
+      margin-bottom: 4rem;
+    }
   }
 
-  .__partners-container {
+  .icon {
     display: block;
-    margin-bottom: 4rem;
   }
+
+  .fas {
+    display: block;
+    font-size: 3.5rem;
+    margin: 1.5rem auto;
+  }
+
 }
 
 footer {
@@ -215,7 +229,7 @@ footer {
       grid-template-columns: repeat(12, 1fr);
 
       h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
 
       h2 {
@@ -227,7 +241,7 @@ footer {
       }
 
       p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 2.5rem;
       }
 
